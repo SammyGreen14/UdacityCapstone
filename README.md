@@ -13,13 +13,14 @@ Can a model predict a person's gender accurately given only a first name?
 
 ## Data
 Kaggle data set with 4,695 names along with gender and nationality.  
-
+https://www.kaggle.com/datasets/hemendrasr/name-by-nationality?resource=download
 
 ## Installation 
 Packages used include pandas, matplotlib, sklearn, and numpy
 
 ## Files
 Nationality.ipynb: Jupyter Notebook containing data analysis
+names-by-nationality.csv: CSV file of data set
 
 ## Resolution
 While models were able to predict the nationality with about a 50% accuracy and the gender with about a 60% accuracy, k-nearest neighbors seemed to mostly just return the most common classes. Japanese names were the exception to this with accuracy above 75%. 
